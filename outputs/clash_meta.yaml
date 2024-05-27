@@ -33,8 +33,8 @@ proxies:
   - h3
   protocol: udp
   auth_str: dongtaiwang.com
-  up: 11
-  down: 55
+  up: 100
+  down: 1000
   hop_interval: 10
 - name: 🏳 Unknown-vless | 2-1
   type: vless
@@ -178,8 +178,8 @@ proxies:
     padding: true
     brutal-opts:
       enabled: true
-      up: 11
-      down: 55
+      up: 100
+      down: 1000
 - name: 🇺🇸 US-ss | 6-1
   type: ss
   server: 109.104.152.186
@@ -196,8 +196,8 @@ proxies:
     padding: true
     brutal-opts:
       enabled: true
-      up: 11
-      down: 55
+      up: 100
+      down: 1000
 - name: 🇺🇸 US-hysteria2 | 7-1
   type: hysteria2
   server: 109.104.152.89
@@ -207,16 +207,16 @@ proxies:
   - h3
   sni: www.bing.com
   skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+  up: 100 Mbps
+  down: 1000 Mbps
 - name: 🇺🇸 US-Hysteria | 0-0
   type: hysteria
   server: 108.181.5.133
   port: 26022
   ports: 26022
   auth-str: dongtaiwang.com
-  up: 80
-  down: 100
+  up: 100
+  down: 1000
   fast-open: true
   protocol: udp
   sni: bing.com
@@ -229,8 +229,8 @@ proxies:
   port: 18702
   ports: 18702
   auth-str: dongtaiwang.com
-  up: 80
-  down: 100
+  up: 100
+  down: 1000
   fast-open: true
   protocol: udp
   sni: bing.com
@@ -243,8 +243,8 @@ proxies:
   port: 58510
   ports: 58510
   auth-str: dongtaiwang.com
-  up: 80
-  down: 100
+  up: 100
+  down: 1000
   fast-open: true
   protocol: udp
   sni: bing.com
